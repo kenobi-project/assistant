@@ -92,7 +92,7 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
   display: none !important;
 }
 
-/* Cache le footer "Développé par MUVIA" */
-.bpComposerFooter {
+/* Cache spécifiquement le lien à l'intérieur du footer */
+.bpComposerFooter a {
   display: none !important;
 }
