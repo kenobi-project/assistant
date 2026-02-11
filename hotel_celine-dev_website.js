@@ -66,7 +66,7 @@
                     privacyPolicy: {},
                     color: "#188cd7",
                     variant: "solid",
-                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_celine-style_css_livret.css",
+                    additionalStylesheetUrl: "https://files.bpcontent.cloud/2026/02/04/15/20260204155623-KNCI30BF.css",
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
