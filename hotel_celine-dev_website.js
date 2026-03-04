@@ -52,7 +52,7 @@
             });
 
             window.botpress.init({
-                botId: "89c3aea8-1d22-4652-b88f-f4e3ebff22bd",
+                botId: "68dc3f83-a69d-47ca-ab10-1f76c7ac9da9",
                 configuration: {
                     version: "v2",
                     composerPlaceholder: "Posez votre question...",
@@ -81,9 +81,20 @@
                     proactiveBubbleTriggerType: "afterDelay",
                     proactiveBubbleDelayTime: 5
                 },
-                clientId: "51cf9d8a-aec5-4e0c-8008-3e4e39a9f6a5",
+                clientId: "e06e296b-a823-4e00-a342-ff4368e7e1e9",
                 selector: "#webchat"
             });
+
+             window.botpress.on("webchat:ready", () => {
+    // On vérifie dans le stockage local si le bot a déjà été déclenché
+    const hasTriggeredBefore = localStorage.getItem("botpress_permanent_trigger");
+    if (!hasTriggeredBefore) {
+      window.botpress.sendEvent({type:"siteweb"});
+      // On enregistre l'information de manière permanente
+      localStorage.setItem("botpress_permanent_trigger", "true");
+    }
+  });
+            
         };
     }
 
