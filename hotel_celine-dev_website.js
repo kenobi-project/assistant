@@ -1,7 +1,7 @@
 (function() {
     // Fonction principale
     function initBotpress() {
-        
+        /*
         // --- 🔒 SÉCURITÉ : ALLOW ORIGIN ---
         const currentDomain = window.location.hostname;
         const allowedDomains = ["www.hotelcelinecorse.fr", "hotelcelinecorse.fr", "https://perfect-tone-332603.framer.app", "perfect-tone-332603.framer.app"];
@@ -12,7 +12,7 @@
             return; // Arrêt immédiat du script
         }
         // ------------------------------------
-
+*/
         // 1. Ajouter le script Botpress
         const botpressScript = document.createElement('script');
         botpressScript.src = "https://cdn.botpress.cloud/webchat/v3.5/inject.js";
