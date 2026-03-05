@@ -139,7 +139,7 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
 }
 
 /* Effet au survol */
-.bpMessageListScrollDownButton:hover {
+.bpMessageListScrollDownButton:hover { 
     background-color: #F7B231 !important;
     transform: scale(1.1) !important; /* Légère animation de grossissement au survol */
     transition: all 0.2s ease !important;
