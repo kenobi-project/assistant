@@ -84,6 +84,17 @@
                 clientId: "85ed8b9f-42ac-4a6a-acb1-2362ced53cb2",
                 selector: "#webchat"
             });
+
+             window.botpress.on("webchat:ready", () => {
+    // On vérifie dans le stockage local si le bot a déjà été déclenché
+    const hasTriggeredBefore = localStorage.getItem("botpress_permanent_trigger");
+    if (!hasTriggeredBefore) {
+      window.botpress.sendEvent({type:"siteweb"});
+      // On enregistre l'information de manière permanente
+      localStorage.setItem("botpress_permanent_trigger", "true");
+    }
+  });
+            
         };
     }
 
