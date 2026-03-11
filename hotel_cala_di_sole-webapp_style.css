@@ -160,3 +160,8 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
 .bpHeaderContentActionsContainer > svg:nth-of-type(3) {
     display: none !important;
 }
+
+/* Cache le dernier élément (le bouton fermer) des actions du header */
+.bpHeaderContentActionsContainer > svg:last-child {
+    display: none !important;
+}
