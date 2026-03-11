@@ -157,7 +157,6 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
   display: none !important;
 }
 
-/* Cache uniquement le bouton avec la croix de fermeture */
-svg[aria-label="Close Chatbot Button"] {
-  display: none !important;
+.bpHeaderContentActionsContainer > svg:nth-of-type(3) {
+    display: none !important;
 }
