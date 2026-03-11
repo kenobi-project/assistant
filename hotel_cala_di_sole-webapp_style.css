@@ -152,3 +152,12 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
     -webkit-mask-replace: add !important;
     mask-repeat: no-repeat !important;
 }
+
+.bpMessageListMarqueeContainer {
+  display: none !important;
+}
+
+/* Cache uniquement le bouton avec la croix de fermeture */
+svg[aria-label="Close Chatbot Button"] {
+  display: none !important;
+}
