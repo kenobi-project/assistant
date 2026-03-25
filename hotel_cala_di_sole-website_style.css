@@ -82,11 +82,6 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
     content: "Distribué" !important;
 }
 
-/* Cache spécifiquement le lien à l'intérieur du footer */
-.bpComposerFooter a {
-  display: none !important;
-}
-
 /* Cible les boutons Suivant ET Précédent */
 .bpMessageBlocksCarouselNextButton, 
 .bpMessageBlocksCarouselBackButton {
