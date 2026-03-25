@@ -152,7 +152,3 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
     -webkit-mask-replace: add !important;
     mask-repeat: no-repeat !important;
 }
-
-.bpMessageListMarqueeContainer {
-  display: none !important;
-}
