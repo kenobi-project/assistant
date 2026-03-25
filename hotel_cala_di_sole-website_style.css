@@ -1,0 +1,158 @@
+/* Your CSS styles here *//* Cacher le texte dâ€™origine des boutons */
+.bpModalButtonConfirm,
+.bpModalButtonCancel {
+    color: transparent !important;
+    position: relative;
+}
+
+/* Traduction pour "New conversation" â†’ "Nouvelle conversation" */
+.bpModalButtonConfirm::after {
+    content: "Nouvelle conversation";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    /* Texte blanc */
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+/* Traduction pour "Cancel" â†’ "Annuler" en noir */
+.bpModalButtonCancel::after {
+    content: "Annuler";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    /* Texte noir */
+    white-space: nowrap;
+    pointer-events: none;
+}
+
+/* 1) Ciblage du <p> systÃ¨me et masquage de son texte */
+div.bpMessageContainer>p.bpMessageBlocksTextText {
+    visibility: hidden !important;
+    position: relative !important;
+}
+
+/* 2) Injection du contenu â€œAujourdâ€™huiâ€ Ã  la place */
+div.bpMessageContainer>p.bpMessageBlocksTextText::before {
+    content: "Aujourd'hui" !important;
+    visibility: visible !important;
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+}
+
+/* Cache Description en dessous */
+.bpModalTitle {
+    visibility: hidden;
+    position: relative;
+    height: 60px;
+    /* Ajuste selon besoin */
+}
+
+
+/* Description en dessous */
+.bpModalTitle::after {
+    content: "Cette action supprimera tous les messages précédents de la session. Voulez-vous continuer ?";
+    visibility: visible;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12px;
+    color: #666;
+    text-align: center;
+    width: 80%;
+    pointer-events: none;
+}
+
+/* 1) Ciblage du <p> systÃ¨me et masquage de son texte */
+div.bpMessageContainer.bpMessageDeliveryStatus:: {
+    visibility: hidden !important;
+    position: relative !important;
+}
+
+/* 2) Injection du contenu â€œDÃ©livrÃ©â€ Ã  la place */
+div.bpMessageContainer.bpMessageDeliveryStatus::after {
+    content: "Distribué" !important;
+}
+
+/* Cache spécifiquement le lien à l'intérieur du footer */
+.bpComposerFooter a {
+  display: none !important;
+}
+
+/* Cible les boutons Suivant ET Précédent */
+.bpMessageBlocksCarouselNextButton, 
+.bpMessageBlocksCarouselBackButton {
+    background-color: #02a5ad !important; /* Votre bleu */
+    border-color: #02a5ad !important;
+    border-radius: 50%; /* Pour garantir qu'ils soient bien ronds si besoin */
+}
+
+/* Cible les icônes SVG à l'intérieur de ces deux boutons */
+.bpMessageBlocksCarouselNextButton svg, 
+.bpMessageBlocksCarouselBackButton svg {
+    stroke: #FFFFFF !important; /* Flèches en blanc pour le contraste */
+}
+
+/* Effet au survol pour les deux */
+.bpMessageBlocksCarouselNextButton:hover, 
+.bpMessageBlocksCarouselBackButton:hover {
+    background-color: #02a5ad !important;
+    border-color: #02a5ad !important;
+    cursor: pointer;
+}
+
+/* Déplace le bouton Précédent vers la gauche */
+.bpMessageBlocksCarouselBackButton {
+    transform: translateY(-58px) !important; /* Ajustez la valeur (ex: -20px) pour l'écarter davantage */
+}
+
+/* Déplace le bouton Suivant vers la droite */
+.bpMessageBlocksCarouselNextButton {
+    transform: translateY(-58px) !important; /* Ajustez la valeur (ex: 20px) pour l'écarter davantage */
+}
+/* Your CSS styles here */
+/* Style du bouton "Retour en bas" */
+.bpMessageListScrollDownButton {
+    background-color: #02a5ad !important; /* Votre bleu */
+    border-color: #02a5ad !important;
+    border-radius: 50% !important; /* Pour qu'il soit bien rond */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important; /* Ajoute un peu de relief */
+    cursor: pointer !important;
+}
+
+/* Effet au survol */
+.bpMessageListScrollDownButton:hover { 
+    background-color: #02a5ad !important;
+    transform: scale(1.1) !important; /* Légère animation de grossissement au survol */
+    transition: all 0.2s ease !important;
+}
+
+/* On change la couleur de l'icône générée par le ::after */
+.bpMessageListScrollDownButton::after {
+    /* Si c'est un caractère (comme une flèche texte) */
+    color: #FFFFFF !important;
+    
+    /* Si c'est une image de masque (très fréquent dans les versions récentes) */
+    background-color: #FFFFFF !important;
+    
+    /* On s'assure que l'opacité est au maximum */
+    opacity: 1 !important;
+}
+
+/* Au cas où l'icône utiliserait un masque CSS pour la couleur */
+.bpMessageListScrollDownButton::after {
+    -webkit-mask-replace: add !important;
+    mask-repeat: no-repeat !important;
+}
+
+.bpMessageListMarqueeContainer {
+  display: none !important;
+}
