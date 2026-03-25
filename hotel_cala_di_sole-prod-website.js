@@ -1,7 +1,7 @@
 (function() {
     // Fonction principale
-    /* function initBotpress() {
-        
+     function initBotpress() {
+        /*
         // --- 🔒 SÉCURITÉ : ALLOW ORIGIN ---
         const currentDomain = window.location.hostname;
         const allowedDomains = ["www.caladisole.fr", "caladisole.fr"];
