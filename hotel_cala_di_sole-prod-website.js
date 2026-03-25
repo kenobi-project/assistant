@@ -67,7 +67,7 @@
                     privacyPolicy: {},
                     color: "#02a5ad",
                     variant: "solid",
-                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_cala_di_sole-webapp_style.css",
+                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_cala_di_sole-website_style.css",
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
