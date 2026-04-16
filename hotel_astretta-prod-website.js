@@ -67,7 +67,7 @@ window.botpress.init({
                     privacyPolicy: {},
                     color: "#f26b41",
                     variant: "solid",
-                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_astretta-webapp_style.css",
+                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_astretta-website_style.css",
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
