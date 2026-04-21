@@ -58,7 +58,7 @@
                     composerPlaceholder: "Posez votre question...",
                     botName: "Cala di Sole ★★★",
                     botAvatar: "https://files.bpcontent.cloud/2026/03/25/12/20260325125005-Q3BKYI9Y.jpeg",
-                    botDescription: "Situé dans une des plus belles criques du Golfe d'Ajaccio, l'hôtel Cala di Sole vous accueillera pour votre séjour en Corse dans une de ses nombreuses chambres, toute vue direct sur la mer.",
+                    botDescription: "Situé dans une des plus belles criques du Golfe d'Ajaccio, l'hôtel Cala di Sole vous accueillera pour votre séjour en Corse dans une de ses nombreuses chambres, toute vue directe sur la mer.",
                     fabImage: "https://files.bpcontent.cloud/2026/03/25/12/20260325125205-DQ6QXC83.jpeg",
                     website: { title: "Site Web", link: "https://www.caladisole.fr/" },
                     email: { title: "hotelcaladisole@gmail.com", link: "hotelcaladisole@gmail.com" },
