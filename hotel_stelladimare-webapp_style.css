@@ -100,8 +100,8 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
 /* Cible les boutons Suivant ET Précédent */
 .bpMessageBlocksCarouselNextButton, 
 .bpMessageBlocksCarouselBackButton {
-    background-color: #f26b41 !important; /* Votre bleu */
-    border-color: #f26b41 !important;
+    background-color: #072b47 !important; /* Votre bleu */
+    border-color: #072b47 !important;
     border-radius: 50%; /* Pour garantir qu'ils soient bien ronds si besoin */
 }
 
@@ -114,8 +114,8 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
 /* Effet au survol pour les deux */
 .bpMessageBlocksCarouselNextButton:hover, 
 .bpMessageBlocksCarouselBackButton:hover {
-    background-color: #f26b41 !important;
-    border-color: #f26b41 !important;
+    background-color: #072b47 !important;
+    border-color: #072b47 !important;
     cursor: pointer;
 }
 
@@ -131,8 +131,8 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
 /* Your CSS styles here */
 /* Style du bouton "Retour en bas" */
 .bpMessageListScrollDownButton {
-    background-color: #f26b41 !important; /* Votre bleu */
-    border-color: #f26b41 !important;
+    background-color: #072b47 !important; /* Votre bleu */
+    border-color: #072b47 !important;
     border-radius: 50% !important; /* Pour qu'il soit bien rond */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important; /* Ajoute un peu de relief */
     cursor: pointer !important;
@@ -140,7 +140,7 @@ div.bpMessageContainer.bpMessageDeliveryStatus::after {
 
 /* Effet au survol */
 .bpMessageListScrollDownButton:hover { 
-    background-color: #f26b41 !important;
+    background-color: #072b47 !important;
     transform: scale(1.1) !important; /* Légère animation de grossissement au survol */
     transition: all 0.2s ease !important;
 }
