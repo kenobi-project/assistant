@@ -51,23 +51,23 @@
                 window.botpress.open();
             });
 
-window.botpress.init({
-                botId: "a5fde69b-bdad-4b1d-932b-29f7ede999b8",
+     window.botpress.init({
+                botId: "78810737-52c0-4932-9edb-4d54b5bb457f",
                 configuration: {
                     version: "v2",
                     composerPlaceholder: "Posez votre question...",
-                    botName: "A Stretta ★★★",
-                    botAvatar: "https://files.bpcontent.cloud/2026/04/16/18/20260416181213-E05HQC5E.png",
-                    botDescription: "Plongez dans l’élégance de nos chambres et suites conçues pour vous offrir le luxe moderne tout en capturant l’essence de la beauté méditerranéenne, créant ainsi un cadre parfait pour votre séjour.",
-					fabImage: "https://files.bpcontent.cloud/2026/04/16/18/20260416181236-HWVRDR7V.jpeg",
-                    website: { title: "Site Web", link: "https://hotel-astretta.com/" },
-                    email: { title: "contact@hotel-astretta.com", link: "contact@hotel-astretta.com" },
-                    phone: { title: "+33618455203", link: "+33618455203" },
+                    botName: "Stella di Mare ★★★",
+                    botAvatar: "https://files.bpcontent.cloud/2026/05/11/09/20260511094723-ZFG2VXTQ.png",
+                    botDescription: "Situé au bord de la mer, dans le décor enchanteur du golfe d’Ajaccio face aux îles Sanguinaires, notre hôtel STELLA DI MARE vous accueille. Nos 60 chambres, lumineuses et confortables, offrent pour la plupart une vue imprenable sur les eaux turquoise de la Méditerranée.",
+					fabImage: "https://files.bpcontent.cloud/2026/05/11/09/20260511094703-MJVEC7AY.jpg",
+                    website: { title: "Site Web", link: "https://www.hotel-stelladimare.com/" },
+                    email: { title: "hotel-stelladimare@wanadoo.fr", link: "hotel-stelladimare@wanadoo.fr" },
+                    phone: { title: "+33495520107", link: "+33495520107" },
                     termsOfService: {},
                     privacyPolicy: {},
-                    color: "#f26b41",
+                    color: "#072b47",
                     variant: "solid",
-                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_astretta-website_style.css",
+                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_stelladimare-website_style.css",
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
@@ -81,7 +81,7 @@ window.botpress.init({
                     proactiveBubbleTriggerType: "afterDelay",
                     proactiveBubbleDelayTime: 5
                 },
-                clientId: "ff8e1ae8-384d-4a4c-8dc0-9fc0923f142c",
+                clientId: "3ff5461e-060f-43d7-b5ef-9a73c40c4628",
                 selector: "#webchat"
             });
 
