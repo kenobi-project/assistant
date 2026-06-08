@@ -19,20 +19,32 @@
         document.head.appendChild(botpressScript);
 
         // 2. Ajouter le style
-        const style = document.createElement('style');
-        style.textContent = `
-          #webchat .bpWebchat {
-            position: unset;
-            width: 100%;
-            height: 100%;
-            max-height: 100%;
-            max-width: 100%;
-          }
-          #webchat .bpFab {
-            display: none;
-          }
-        `;
-        document.head.appendChild(style);
+const style = document.createElement('style');
+style.textContent = `
+  #webchat .bpWebchat {
+    position: unset;
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    max-width: 100%;
+  }
+  #webchat .bpFab {
+    display: none;
+  }
+
+  /* ↙️ Décalage de la bulle vers la gauche */
+  .bpFab {
+    transform: translateX(-200px) translateY(-40px) !important;
+    transition: none !important;
+  }
+  .bpFab:hover {
+    transform: translateX(-200px) translateY(-40px) !important;
+  }
+  .bpOpen.bpWebchat.bpReset {
+    transform: translateX(-200px) translateY(-40px) !important;
+  }
+`;
+document.head.appendChild(style);
 
         // 3. Créer le conteneur du webchat
         if (!document.getElementById('webchat') && document.body) {
@@ -68,7 +80,7 @@
                     color: "#212121",
                     variant: "solid",
                     additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_continentalbastia-website_style.css",
-                    headerVariant: "glass",
+                    headerVariant: "solid",
                     themeMode: "light",
                     fontFamily: "Inter",
                     radius: 0.6,
