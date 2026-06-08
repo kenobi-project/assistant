@@ -71,7 +71,7 @@
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
-                    radius: 2,
+                    radius: 0.6,
                     feedbackEnabled: false,
                     footer: "[Développé par MUVIA. 🚀](https://muvia-solutions.fr/)",
                     storageLocation: "localStorage",
