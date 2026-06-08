@@ -67,7 +67,7 @@
                     privacyPolicy: {},
                     color: "#212121",
                     variant: "solid",
-                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_continentalbastia-webapp_style.css",
+                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_continentalbastia-website_style.css",
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
