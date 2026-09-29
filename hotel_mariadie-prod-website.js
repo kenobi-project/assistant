@@ -67,7 +67,7 @@
                     privacyPolicy: {},
                     color: "#277E93 ",
                     variant: "solid",
-                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_mariadie-webapp_style.css",
+                    additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_mariadie-website_style.css",
                     headerVariant: "glass",
                     themeMode: "light",
                     fontFamily: "Inter",
