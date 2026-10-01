@@ -51,7 +51,7 @@
                 window.botpress.open();
             });
 
-     window.botpress.init({
+      window.botpress.init({
                 botId: "9ae2dfe0-f4cc-4d52-b298-fbacedd04f11",
                 configuration: {
                     version: "v2",
@@ -65,7 +65,7 @@
                     phone: { title: "+330972553789", link: "+330972553789" },
                     termsOfService: {},
                     privacyPolicy: {},
-                    color: "#277E93 ",
+                    color: "#277E93",
                     variant: "solid",
                     additionalStylesheetUrl: "https://kenobi-project.github.io/assistant/hotel_mariadie-website_style.css",
                     headerVariant: "glass",
